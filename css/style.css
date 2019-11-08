@@ -312,11 +312,13 @@ h4.sub-title.two {
   color: white;
   transition: .2s;
   transform: translateY(1em);
+  word-wrap: break-word;
 }
 
 .gal-img:hover .text-effect {
   transform: translateY(0);
   color: white;
+  word-wrap: break-word;
 }
 /*--//gallery--*/
 
