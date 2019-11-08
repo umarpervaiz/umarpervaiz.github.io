@@ -146,6 +146,36 @@ img.admin {
 
 }
 
+
+.inner-wrap-s {
+    margin: 0 auto;
+    width: 65%;
+    padding-top: 4em;
+    text-align: center;
+    position = absolute;
+
+}
+
+.inner-wrap-s h4 {
+    color: #fff;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 5px 3px rgba(0, 0, 0, 0.06);
+    margin: 0.5em 0 3em 0;
+}
+
+.inner-wrap-s h2,
+.head-w3ls {
+    color: #fff;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 5px 3px rgba(0, 0, 0, 0.06);
+    margin: 0em 0 1.5em 0;
+}
+
+
 .tab-main section {
     display: none;
 }
@@ -265,6 +295,7 @@ h4.sub-title.two {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: auto;
 
   /* transition effect. not necessary */
   transition: opacity .2s, visibility .2s;
